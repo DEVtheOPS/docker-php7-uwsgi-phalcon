@@ -1,4 +1,5 @@
-FROM digitalfiz/php7-uwsgi
+FROM devtheops/php7-uwsgi
+MAINTAINER Marc Seiler <info@devtheops.com>
 
 WORKDIR /var/www/src
 
